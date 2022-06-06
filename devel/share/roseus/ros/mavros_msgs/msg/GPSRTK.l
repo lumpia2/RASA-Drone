@@ -1,0 +1,1 @@
+/home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/GPSRTK.l

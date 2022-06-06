@@ -1,0 +1,35 @@
+[35m[1mScanning dependencies of target mavros_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target _offboard_generate_messages_check_deps_offboardMode[0m
+[35m[1mScanning dependencies of target mavros_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target mavros_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target mavros_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target thrust_pid[0m
+[35m[1mScanning dependencies of target mavros_msgs_generate_messages_nodejs[0m
+[  0%] Built target mavros_msgs_generate_messages_cpp
+[  0%] Built target mavros_msgs_generate_messages_lisp
+[  0%] Built target mavros_msgs_generate_messages_eus
+[  0%] Built target mavros_msgs_generate_messages_py
+[  0%] Built target mavros_msgs_generate_messages_nodejs
+[ 11%] [32mBuilding CXX object CMakeFiles/thrust_pid.dir/src/offb_vel_node.cpp.o[0m
+[ 11%] Built target _offboard_generate_messages_check_deps_offboardMode
+[35m[1mScanning dependencies of target offboard_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target offboard_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target offboard_generate_messages_py[0m
+[35m[1mScanning dependencies of target offboard_generate_messages_eus[0m
+[35m[1mScanning dependencies of target offboard_generate_messages_lisp[0m
+[ 66%] [34m[1mGenerating Python from MSG offboard/offboardMode[0m
+[ 66%] [34m[1mGenerating EusLisp manifest code for offboard[0m
+[ 66%] [34m[1mGenerating Lisp code from offboard/offboardMode.msg[0m
+[ 66%] [34m[1mGenerating C++ code from offboard/offboardMode.msg[0m
+[ 66%] [34m[1mGenerating Javascript code from offboard/offboardMode.msg[0m
+[ 77%] [34m[1mGenerating EusLisp code from offboard/offboardMode.msg[0m
+[ 77%] Built target offboard_generate_messages_lisp
+[ 77%] Built target offboard_generate_messages_nodejs
+[ 77%] Built target offboard_generate_messages_cpp
+[ 88%] [34m[1mGenerating Python msg __init__.py for offboard[0m
+[ 88%] Built target offboard_generate_messages_py
+[ 88%] Built target offboard_generate_messages_eus
+[35m[1mScanning dependencies of target offboard_generate_messages[0m
+[ 88%] Built target offboard_generate_messages
+[100%] [32m[1mLinking CXX executable /home/nate/RASA/RASA-Drone/devel/.private/offboard/lib/offboard/thrust_pid[0m
+[100%] Built target thrust_pid
