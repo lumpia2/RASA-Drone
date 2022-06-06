@@ -1,0 +1,1 @@
+/home/nate/RASA/RASA-Drone/devel/.private/offboard/share/roseus/ros/offboard/manifest.l

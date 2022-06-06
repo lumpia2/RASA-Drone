@@ -1,0 +1,6 @@
+Symlinking /home/nate/RASA/RASA-Drone/devel/lib/libmavros_extras.so
+Symlinking /home/nate/RASA/RASA-Drone/devel/lib/mavros_extras/servo_state_publisher
+Symlinking /home/nate/RASA/RASA-Drone/devel/lib/mavros_extras/visualization
+Symlinking /home/nate/RASA/RASA-Drone/devel/lib/pkgconfig/mavros_extras.pc
+Symlinking /home/nate/RASA/RASA-Drone/devel/share/mavros_extras/cmake/mavros_extrasConfig.cmake
+Symlinking /home/nate/RASA/RASA-Drone/devel/share/mavros_extras/cmake/mavros_extrasConfig-version.cmake
