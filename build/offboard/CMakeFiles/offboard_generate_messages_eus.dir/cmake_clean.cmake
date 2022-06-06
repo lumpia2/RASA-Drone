@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "/home/nate/RASA/RASA-Drone/devel/.private/offboard/share/roseus/ros/offboard/manifest.l"
-  "/home/nate/RASA/RASA-Drone/devel/.private/offboard/share/roseus/ros/offboard/msg/offboardMode.l"
   "CMakeFiles/offboard_generate_messages_eus"
 )
 

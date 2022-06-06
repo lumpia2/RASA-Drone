@@ -1,7 +1,3 @@
-file(REMOVE_RECURSE
-  "/home/nate/RASA/RASA-Drone/devel/.private/offboard/share/gennodejs/ros/offboard/msg/offboardMode.js"
-  "CMakeFiles/offboard_generate_messages_nodejs"
-)
 
 # Per-language clean rules from dependency scanning.
 foreach(lang )

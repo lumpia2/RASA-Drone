@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(offboard_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/nate/RASA/RASA-Drone/devel/.private/offboard/include " STREQUAL " ")
+if(NOT " " STREQUAL " ")
   set(offboard_INCLUDE_DIRS "")
-  set(_include_dirs "/home/nate/RASA/RASA-Drone/devel/.private/offboard/include")
+  set(_include_dirs "")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")

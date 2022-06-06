@@ -53,16 +53,6 @@ CMAKE_BINARY_DIR = /home/nate/RASA/RASA-Drone/build/offboard
 # Include the progress variables for this target.
 include CMakeFiles/offboard_generate_messages_lisp.dir/progress.make
 
-CMakeFiles/offboard_generate_messages_lisp: /home/nate/RASA/RASA-Drone/devel/.private/offboard/share/common-lisp/ros/offboard/msg/offboardMode.lisp
-
-
-/home/nate/RASA/RASA-Drone/devel/.private/offboard/share/common-lisp/ros/offboard/msg/offboardMode.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/nate/RASA/RASA-Drone/devel/.private/offboard/share/common-lisp/ros/offboard/msg/offboardMode.lisp: /home/nate/RASA/RASA-Drone/src/offboard/msg/offboardMode.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from offboard/offboardMode.msg"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/nate/RASA/RASA-Drone/src/offboard/msg/offboardMode.msg -Ioffboard:/home/nate/RASA/RASA-Drone/src/offboard/msg -Imavros_msgs:/home/nate/RASA/RASA-Drone/src/mavros/mavros_msgs/msg -Igeographic_msgs:/opt/ros/noetic/share/geographic_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iuuid_msgs:/opt/ros/noetic/share/uuid_msgs/cmake/../msg -p offboard -o /home/nate/RASA/RASA-Drone/devel/.private/offboard/share/common-lisp/ros/offboard/msg
-
-offboard_generate_messages_lisp: CMakeFiles/offboard_generate_messages_lisp
-offboard_generate_messages_lisp: /home/nate/RASA/RASA-Drone/devel/.private/offboard/share/common-lisp/ros/offboard/msg/offboardMode.lisp
 offboard_generate_messages_lisp: CMakeFiles/offboard_generate_messages_lisp.dir/build.make
 
 .PHONY : offboard_generate_messages_lisp

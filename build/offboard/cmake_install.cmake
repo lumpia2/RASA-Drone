@@ -129,10 +129,6 @@ file(INSTALL DESTINATION "/home/nate/RASA/RASA-Drone/install" TYPE FILE FILES "/
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/offboard/msg" TYPE FILE FILES "/home/nate/RASA/RASA-Drone/src/offboard/msg/offboardMode.msg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/offboard/cmake" TYPE FILE FILES "/home/nate/RASA/RASA-Drone/build/offboard/catkin_generated/installspace/offboard-msg-paths.cmake")
 endif()
 

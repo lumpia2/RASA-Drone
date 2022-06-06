@@ -114,7 +114,6 @@ clean: CMakeFiles/offboard_genpy.dir/clean
 clean: CMakeFiles/geographic_msgs_generate_messages_cpp.dir/clean
 clean: CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
 clean: CMakeFiles/offboard_generate_messages.dir/clean
-clean: CMakeFiles/_offboard_generate_messages_check_deps_offboardMode.dir/clean
 clean: CMakeFiles/offboard_generate_messages_cpp.dir/clean
 clean: CMakeFiles/offboard_geneus.dir/clean
 clean: CMakeFiles/offboard_generate_messages_lisp.dir/clean
@@ -218,7 +217,7 @@ CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
 CMakeFiles/thrust_pid.dir/all:
 	$(MAKE) -f CMakeFiles/thrust_pid.dir/build.make CMakeFiles/thrust_pid.dir/depend
 	$(MAKE) -f CMakeFiles/thrust_pid.dir/build.make CMakeFiles/thrust_pid.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles --progress-num=16,17 "Built target thrust_pid"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles --progress-num=11,12 "Built target thrust_pid"
 .PHONY : CMakeFiles/thrust_pid.dir/all
 
 # Build rule for subdir invocation for target.
@@ -628,7 +627,7 @@ CMakeFiles/offboard_gencpp.dir/all: CMakeFiles/offboard_generate_messages_cpp.di
 
 # Build rule for subdir invocation for target.
 CMakeFiles/offboard_gencpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/offboard_gencpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 0
 .PHONY : CMakeFiles/offboard_gencpp.dir/rule
@@ -864,15 +863,14 @@ CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/offboard_generate_messages_eus.dir/all: CMakeFiles/mavros_msgs_generate_messages_eus.dir/all
-CMakeFiles/offboard_generate_messages_eus.dir/all: CMakeFiles/_offboard_generate_messages_check_deps_offboardMode.dir/all
 	$(MAKE) -f CMakeFiles/offboard_generate_messages_eus.dir/build.make CMakeFiles/offboard_generate_messages_eus.dir/depend
 	$(MAKE) -f CMakeFiles/offboard_generate_messages_eus.dir/build.make CMakeFiles/offboard_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles --progress-num=10,11 "Built target offboard_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles --progress-num=9 "Built target offboard_generate_messages_eus"
 .PHONY : CMakeFiles/offboard_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/offboard_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/offboard_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 0
 .PHONY : CMakeFiles/offboard_generate_messages_eus.dir/rule
@@ -926,7 +924,7 @@ CMakeFiles/offboard_gennodejs.dir/all: CMakeFiles/offboard_generate_messages_nod
 
 # Build rule for subdir invocation for target.
 CMakeFiles/offboard_gennodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/offboard_gennodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 0
 .PHONY : CMakeFiles/offboard_gennodejs.dir/rule
@@ -1412,7 +1410,7 @@ CMakeFiles/offboard_genpy.dir/all: CMakeFiles/offboard_generate_messages_py.dir/
 
 # Build rule for subdir invocation for target.
 CMakeFiles/offboard_genpy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/offboard_genpy.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 0
 .PHONY : CMakeFiles/offboard_genpy.dir/rule
@@ -1497,7 +1495,7 @@ CMakeFiles/offboard_generate_messages.dir/all: CMakeFiles/offboard_generate_mess
 
 # Build rule for subdir invocation for target.
 CMakeFiles/offboard_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/offboard_generate_messages.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 0
 .PHONY : CMakeFiles/offboard_generate_messages.dir/rule
@@ -1513,46 +1511,18 @@ CMakeFiles/offboard_generate_messages.dir/clean:
 .PHONY : CMakeFiles/offboard_generate_messages.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/_offboard_generate_messages_check_deps_offboardMode.dir
-
-# All Build rule for target.
-CMakeFiles/_offboard_generate_messages_check_deps_offboardMode.dir/all:
-	$(MAKE) -f CMakeFiles/_offboard_generate_messages_check_deps_offboardMode.dir/build.make CMakeFiles/_offboard_generate_messages_check_deps_offboardMode.dir/depend
-	$(MAKE) -f CMakeFiles/_offboard_generate_messages_check_deps_offboardMode.dir/build.make CMakeFiles/_offboard_generate_messages_check_deps_offboardMode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles --progress-num= "Built target _offboard_generate_messages_check_deps_offboardMode"
-.PHONY : CMakeFiles/_offboard_generate_messages_check_deps_offboardMode.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/_offboard_generate_messages_check_deps_offboardMode.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/_offboard_generate_messages_check_deps_offboardMode.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 0
-.PHONY : CMakeFiles/_offboard_generate_messages_check_deps_offboardMode.dir/rule
-
-# Convenience name for target.
-_offboard_generate_messages_check_deps_offboardMode: CMakeFiles/_offboard_generate_messages_check_deps_offboardMode.dir/rule
-
-.PHONY : _offboard_generate_messages_check_deps_offboardMode
-
-# clean rule for target.
-CMakeFiles/_offboard_generate_messages_check_deps_offboardMode.dir/clean:
-	$(MAKE) -f CMakeFiles/_offboard_generate_messages_check_deps_offboardMode.dir/build.make CMakeFiles/_offboard_generate_messages_check_deps_offboardMode.dir/clean
-.PHONY : CMakeFiles/_offboard_generate_messages_check_deps_offboardMode.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/offboard_generate_messages_cpp.dir
 
 # All Build rule for target.
 CMakeFiles/offboard_generate_messages_cpp.dir/all: CMakeFiles/mavros_msgs_generate_messages_cpp.dir/all
-CMakeFiles/offboard_generate_messages_cpp.dir/all: CMakeFiles/_offboard_generate_messages_check_deps_offboardMode.dir/all
 	$(MAKE) -f CMakeFiles/offboard_generate_messages_cpp.dir/build.make CMakeFiles/offboard_generate_messages_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/offboard_generate_messages_cpp.dir/build.make CMakeFiles/offboard_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles --progress-num=9 "Built target offboard_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles --progress-num= "Built target offboard_generate_messages_cpp"
 .PHONY : CMakeFiles/offboard_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/offboard_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/offboard_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 0
 .PHONY : CMakeFiles/offboard_generate_messages_cpp.dir/rule
@@ -1579,7 +1549,7 @@ CMakeFiles/offboard_geneus.dir/all: CMakeFiles/offboard_generate_messages_eus.di
 
 # Build rule for subdir invocation for target.
 CMakeFiles/offboard_geneus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/offboard_geneus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 0
 .PHONY : CMakeFiles/offboard_geneus.dir/rule
@@ -1599,15 +1569,14 @@ CMakeFiles/offboard_geneus.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/offboard_generate_messages_lisp.dir/all: CMakeFiles/mavros_msgs_generate_messages_lisp.dir/all
-CMakeFiles/offboard_generate_messages_lisp.dir/all: CMakeFiles/_offboard_generate_messages_check_deps_offboardMode.dir/all
 	$(MAKE) -f CMakeFiles/offboard_generate_messages_lisp.dir/build.make CMakeFiles/offboard_generate_messages_lisp.dir/depend
 	$(MAKE) -f CMakeFiles/offboard_generate_messages_lisp.dir/build.make CMakeFiles/offboard_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles --progress-num=12 "Built target offboard_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles --progress-num= "Built target offboard_generate_messages_lisp"
 .PHONY : CMakeFiles/offboard_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/offboard_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/offboard_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 0
 .PHONY : CMakeFiles/offboard_generate_messages_lisp.dir/rule
@@ -1688,7 +1657,7 @@ CMakeFiles/offboard_genlisp.dir/all: CMakeFiles/offboard_generate_messages_lisp.
 
 # Build rule for subdir invocation for target.
 CMakeFiles/offboard_genlisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/offboard_genlisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 0
 .PHONY : CMakeFiles/offboard_genlisp.dir/rule
@@ -1708,15 +1677,14 @@ CMakeFiles/offboard_genlisp.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/offboard_generate_messages_nodejs.dir/all: CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/offboard_generate_messages_nodejs.dir/all: CMakeFiles/_offboard_generate_messages_check_deps_offboardMode.dir/all
 	$(MAKE) -f CMakeFiles/offboard_generate_messages_nodejs.dir/build.make CMakeFiles/offboard_generate_messages_nodejs.dir/depend
 	$(MAKE) -f CMakeFiles/offboard_generate_messages_nodejs.dir/build.make CMakeFiles/offboard_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles --progress-num=13 "Built target offboard_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles --progress-num= "Built target offboard_generate_messages_nodejs"
 .PHONY : CMakeFiles/offboard_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/offboard_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/offboard_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 0
 .PHONY : CMakeFiles/offboard_generate_messages_nodejs.dir/rule
@@ -1736,15 +1704,14 @@ CMakeFiles/offboard_generate_messages_nodejs.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/offboard_generate_messages_py.dir/all: CMakeFiles/mavros_msgs_generate_messages_py.dir/all
-CMakeFiles/offboard_generate_messages_py.dir/all: CMakeFiles/_offboard_generate_messages_check_deps_offboardMode.dir/all
 	$(MAKE) -f CMakeFiles/offboard_generate_messages_py.dir/build.make CMakeFiles/offboard_generate_messages_py.dir/depend
 	$(MAKE) -f CMakeFiles/offboard_generate_messages_py.dir/build.make CMakeFiles/offboard_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles --progress-num=14,15 "Built target offboard_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles --progress-num=10 "Built target offboard_generate_messages_py"
 .PHONY : CMakeFiles/offboard_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/offboard_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/offboard_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles 0
 .PHONY : CMakeFiles/offboard_generate_messages_py.dir/rule

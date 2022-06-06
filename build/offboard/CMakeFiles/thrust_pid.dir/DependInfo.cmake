@@ -17,7 +17,6 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/nate/RASA/RASA-Drone/devel/.private/offboard/include"
   "/home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/include"
   "/home/nate/RASA/RASA-Drone/src/mavros/mavros_msgs/include"
   "/opt/ros/noetic/include"
