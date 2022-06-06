@@ -14,8 +14,8 @@ Not searching for unused variables given on the command line.
 [36m--[0m Detecting CXX compile features
 [36m--[0m Detecting CXX compile features - done
 [36m--[0m Using CATKIN_DEVEL_PREFIX: /home/nate/RASA/RASA-Drone/devel/.private/offboard
-[36m--[0m Using CMAKE_PREFIX_PATH: /home/nate/RASA/RASA-Drone/devel;/home/nate/catkin_ws/devel;/home/nate/catkin_ws/devel/.private/catkin_tools_prebuild;/opt/ros/noetic
-[36m--[0m This workspace overlays: /home/nate/RASA/RASA-Drone/devel;/home/nate/catkin_ws/devel;/home/nate/catkin_ws/devel/.private/catkin_tools_prebuild;/opt/ros/noetic
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/nate/RASA/RASA-Drone/devel;/opt/ros/noetic
+[36m--[0m This workspace overlays: /home/nate/RASA/RASA-Drone/devel;/opt/ros/noetic
 [36m--[0m Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")
 [36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python3
 [36m--[0m Using Debian Python package layout
@@ -32,8 +32,16 @@ Not searching for unused variables given on the command line.
 [36m--[0m Using Python nosetests: /usr/bin/nosetests3
 [36m--[0m catkin 0.8.10
 [36m--[0m BUILD_SHARED_LIBS is on
-[36m--[0m Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
-[36m--[0m offboard: 1 messages, 0 services
-[36m--[0m Configuring done
-[36m--[0m Generating done
-[36m--[0m Build files have been written to: /home/nate/RASA/RASA-Drone/build/offboard
+[31m[1mCMake Error[0m at /opt/ros/noetic/share/catkin/cmake/catkin_package_xml.cmake:54 (message):
+  catkin_package_xml() package name 'offboard' in
+  '/home/nate/RASA/RASA-Drone/src/pid_node/package.xml' does not match
+  current PROJECT_NAME 'pid_node'.  You must call project() with the same
+  package name before.
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/noetic/share/catkin/cmake/catkin_package.cmake:99 (catkin_package_xml)
+  CMakeLists.txt:105 (catkin_package)
+
+
+[36m--[0m Configuring incomplete, errors occurred!
+See also "/home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles/CMakeOutput.log".
+See also "/home/nate/RASA/RASA-Drone/build/offboard/CMakeFiles/CMakeError.log".

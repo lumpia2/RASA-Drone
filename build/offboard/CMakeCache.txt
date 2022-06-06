@@ -215,7 +215,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=offboard
+CMAKE_PROJECT_NAME:STATIC=pid_node
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=1.10.0
@@ -376,24 +376,6 @@ catkin_DIR:PATH=/opt/ros/noetic/share/catkin/cmake
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/noetic/share/cpp_common/cmake
 
-//The directory containing a CMake configuration file for gencpp.
-gencpp_DIR:PATH=/opt/ros/noetic/share/gencpp/cmake
-
-//The directory containing a CMake configuration file for geneus.
-geneus_DIR:PATH=/opt/ros/noetic/share/geneus/cmake
-
-//The directory containing a CMake configuration file for genlisp.
-genlisp_DIR:PATH=/opt/ros/noetic/share/genlisp/cmake
-
-//The directory containing a CMake configuration file for genmsg.
-genmsg_DIR:PATH=/opt/ros/noetic/share/genmsg/cmake
-
-//The directory containing a CMake configuration file for gennodejs.
-gennodejs_DIR:PATH=/opt/ros/noetic/share/gennodejs/cmake
-
-//The directory containing a CMake configuration file for genpy.
-genpy_DIR:PATH=/opt/ros/noetic/share/genpy/cmake
-
 //The directory containing a CMake configuration file for geographic_msgs.
 geographic_msgs_DIR:PATH=/opt/ros/noetic/share/geographic_msgs/cmake
 
@@ -452,17 +434,14 @@ lib:FILEPATH=/opt/ros/noetic/lib/libxmlrpcpp.so
 //The directory containing a CMake configuration file for mavros_msgs.
 mavros_msgs_DIR:PATH=/home/nate/RASA/RASA-Drone/devel/share/mavros_msgs/cmake
 
-//The directory containing a CMake configuration file for message_generation.
-message_generation_DIR:PATH=/opt/ros/noetic/share/message_generation/cmake
-
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/noetic/share/message_runtime/cmake
 
 //Value Computed by CMake
-offboard_BINARY_DIR:STATIC=/home/nate/RASA/RASA-Drone/build/offboard
+pid_node_BINARY_DIR:STATIC=/home/nate/RASA/RASA-Drone/build/offboard
 
 //Value Computed by CMake
-offboard_SOURCE_DIR:STATIC=/home/nate/RASA/RASA-Drone/src/offboard
+pid_node_SOURCE_DIR:STATIC=/home/nate/RASA/RASA-Drone/src/pid_node
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/noetic/share/rosconsole/cmake
@@ -593,7 +572,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/nate/RASA/RASA-Drone/src/offboard
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/nate/RASA/RASA-Drone/src/pid_node
 //ADVANCED property for variable: CMAKE_INSTALL_BINDIR
 CMAKE_INSTALL_BINDIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_INSTALL_DATADIR

@@ -60,7 +60,7 @@ icarous-v2.0-cxx-stamp: /home/nate/RASA/RASA-Drone/src/mavlink/message_definitio
 icarous-v2.0-cxx-stamp: /home/nate/RASA/RASA-Drone/src/mavlink/message_definitions/v1.0/common.xml
 icarous-v2.0-cxx-stamp: /home/nate/RASA/RASA-Drone/src/mavlink/pymavlink/tools/mavgen.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nate/RASA/RASA-Drone/build/mavlink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating icarous-v2.0-cxx-stamp"
-	/usr/bin/env PYTHONPATH="/home/nate/RASA/RASA-Drone/src/mavlink:/home/nate/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages" /usr/bin/python3.8 /home/nate/RASA/RASA-Drone/src/mavlink/pymavlink/tools/mavgen.py --lang=C++11 --wire-protocol=2.0 --output=include/v2.0 /home/nate/RASA/RASA-Drone/src/mavlink/message_definitions/v1.0/icarous.xml
+	/usr/bin/env PYTHONPATH="/home/nate/RASA/RASA-Drone/src/mavlink:/opt/ros/noetic/lib/python3/dist-packages" /usr/bin/python3.8 /home/nate/RASA/RASA-Drone/src/mavlink/pymavlink/tools/mavgen.py --lang=C++11 --wire-protocol=2.0 --output=include/v2.0 /home/nate/RASA/RASA-Drone/src/mavlink/message_definitions/v1.0/icarous.xml
 	touch icarous-v2.0-cxx-stamp
 
 icarous.xml-v2.0: CMakeFiles/icarous.xml-v2.0

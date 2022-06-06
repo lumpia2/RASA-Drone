@@ -1,1 +1,0 @@
-/home/nate/RASA/RASA-Drone/devel/.private/offboard/share/gennodejs/ros/offboard/msg/offboardMode.js

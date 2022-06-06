@@ -60,7 +60,7 @@ include/v1.0/storm32/storm32.h: /home/nate/RASA/RASA-Drone/src/mavlink/message_d
 include/v1.0/storm32/storm32.h: /home/nate/RASA/RASA-Drone/src/mavlink/message_definitions/v1.0/common.xml
 include/v1.0/storm32/storm32.h: /home/nate/RASA/RASA-Drone/src/mavlink/pymavlink/tools/mavgen.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nate/RASA/RASA-Drone/build/mavlink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating include/v1.0/storm32/storm32.h"
-	/usr/bin/env PYTHONPATH="/home/nate/RASA/RASA-Drone/src/mavlink:/home/nate/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages" /usr/bin/python3.8 /home/nate/RASA/RASA-Drone/src/mavlink/pymavlink/tools/mavgen.py --lang=C --wire-protocol=1.0 --output=include/v1.0 /home/nate/RASA/RASA-Drone/src/mavlink/message_definitions/v1.0/storm32.xml
+	/usr/bin/env PYTHONPATH="/home/nate/RASA/RASA-Drone/src/mavlink:/opt/ros/noetic/lib/python3/dist-packages" /usr/bin/python3.8 /home/nate/RASA/RASA-Drone/src/mavlink/pymavlink/tools/mavgen.py --lang=C --wire-protocol=1.0 --output=include/v1.0 /home/nate/RASA/RASA-Drone/src/mavlink/message_definitions/v1.0/storm32.xml
 
 storm32.xml-v1.0: CMakeFiles/storm32.xml-v1.0
 storm32.xml-v1.0: include/v1.0/storm32/storm32.h

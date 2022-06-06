@@ -1,8 +1,0 @@
-prefix=/home/nate/RASA/RASA-Drone/install
-
-Name: offboard
-Description: Description of offboard
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: mavros_msgs roscpp rospy std_msgs message_runtime

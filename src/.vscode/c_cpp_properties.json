@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/nate/RASA/RASA-Drone/devel/include/**",
+        "/home/nate/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/nate/RASA/RASA-Drone/src/mavros/libmavconn/include/**",
+        "/home/nate/RASA/RASA-Drone/src/mavros/mavros/include/**",
+        "/home/nate/RASA/RASA-Drone/src/mavros/mavros_msgs/include/**",
+        "/home/nate/RASA/RASA-Drone/src/offboard/include/**",
+        "/home/nate/RASA/RASA-Drone/src/mavros/test_mavros/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

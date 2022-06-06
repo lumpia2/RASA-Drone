@@ -60,7 +60,7 @@ paparazzi-v2.0-cxx-stamp: /home/nate/RASA/RASA-Drone/src/mavlink/message_definit
 paparazzi-v2.0-cxx-stamp: /home/nate/RASA/RASA-Drone/src/mavlink/message_definitions/v1.0/common.xml
 paparazzi-v2.0-cxx-stamp: /home/nate/RASA/RASA-Drone/src/mavlink/pymavlink/tools/mavgen.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nate/RASA/RASA-Drone/build/mavlink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating paparazzi-v2.0-cxx-stamp"
-	/usr/bin/env PYTHONPATH="/home/nate/RASA/RASA-Drone/src/mavlink:/home/nate/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages" /usr/bin/python3.8 /home/nate/RASA/RASA-Drone/src/mavlink/pymavlink/tools/mavgen.py --lang=C++11 --wire-protocol=2.0 --output=include/v2.0 /home/nate/RASA/RASA-Drone/src/mavlink/message_definitions/v1.0/paparazzi.xml
+	/usr/bin/env PYTHONPATH="/home/nate/RASA/RASA-Drone/src/mavlink:/opt/ros/noetic/lib/python3/dist-packages" /usr/bin/python3.8 /home/nate/RASA/RASA-Drone/src/mavlink/pymavlink/tools/mavgen.py --lang=C++11 --wire-protocol=2.0 --output=include/v2.0 /home/nate/RASA/RASA-Drone/src/mavlink/message_definitions/v1.0/paparazzi.xml
 	touch paparazzi-v2.0-cxx-stamp
 
 paparazzi.xml-v2.0: CMakeFiles/paparazzi.xml-v2.0
