@@ -16,11 +16,12 @@ mavros_msgs::AttitudeTarget att;
 
 /* PID gain values */
 struct { 
-    const double KP=0.1,
+    const double KP=18,
                  KI=1.0, 
-                 KD=20;
+                 KD=25;
 
-    const double TS = 20.0; 
+    const double TS = 1/80.0; 
+    
 } constants; 
 
 double u=0, u_1=0, e=0, e_1=0, e_2=0; 
@@ -79,8 +80,8 @@ int main(int argc, char **argv) {
 
 
     //the setpoint publishing rate MUST be faster than 2Hz
-    ros::Rate rate(constants.TS);
-
+    ros::Rate rate(1/constants.TS);
+     
     // wait for FCU connection
     while(ros::ok() && !current_state.connected){
         ROS_INFO_ONCE("Waiting for FCU connection..."); 
@@ -153,7 +154,7 @@ int main(int argc, char **argv) {
         if( current_state.mode == "OFFBOARD" && current_state.armed ) 
         {
             ROS_INFO_ONCE("Calling PID"); 
-            pid(10.0);
+            pid(5.0);
         }
 
         //message
