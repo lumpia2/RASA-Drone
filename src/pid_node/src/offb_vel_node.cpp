@@ -15,16 +15,17 @@ mavros_msgs::AttitudeTarget att;
 
 
 /* PID gain values */
-double kp=1/40.0, 
-       ki=1/30.0, 
-       kd=0; 
+struct { 
+    const double KP=0.1,
+                 KI=1.0, 
+                 KD=20;
 
-/* ERROR */
-double e, prev_e=0; 
-double P, I, D; 
+    const double TS = 20.0; 
+} constants; 
+
+double u=0, u_1=0, e=0, e_1=0, e_2=0; 
 
 /* Call backs */
-
 
 // PX4  STATE CALL BACK 
 void state_cb(const mavros_msgs::State::ConstPtr& msg)
@@ -39,27 +40,23 @@ void pose_cb( const geometry_msgs::PoseStamped::ConstPtr& msg )
 }
 
 /* PID IMPLEMENTATION  */
-void pid(float sp) { 
-    
-    float u; 
-    
-    e = sp - pose.pose.position.z;
-    prev_e = e;
+void pid(float sp) 
+{ 
+    e = sp - pose.pose.position.z; 
 
-    // ROS_INFO("e: %f", sp - pose.pose.position.z);  
-    P = kp*e; 
-    I = ki*(e+prev_e); 
-
-    ROS_INFO("actual e: %f", e);  
-    // ROS_INFO("kp: %f", kp); 
-    // ROS_INFO("p: %f", P); 
-    u = P + I; 
+    u = u_1 + 
+        ( constants.KP + (constants.KD / constants.TS))*e + 
+        (-constants.KP - (2*constants.KD/constants.TS))*e_1 + 
+        (constants.KD/constants.TS)*e_2; 
     
-    ROS_INFO("u: %f\n", u); 
-    
-    if (u > 1) att.thrust = 1.0; 
+    if ( u > 1 ) att.thrust = 1.0; 
     else if ( u < 0 ) att.thrust = 0.0; 
     else att.thrust = u;  
+
+    // Updating variables 
+    u_1 = u; 
+    e_2 = e_1; 
+    e_1 = e; 
 }
 
 
@@ -68,7 +65,7 @@ int main(int argc, char **argv) {
     ros::NodeHandle nh;
 
     ros::Subscriber pose_sub = nh.subscribe<geometry_msgs::PoseStamped>
-            ("mavros/local_position/pose", 10, pose_cb); 
+            ("mavros/local_position/pose", 20, pose_cb); 
     ros::Subscriber state_sub = nh.subscribe<mavros_msgs::State>
             ("mavros/state", 10, state_cb);
     ros::Publisher local_pos_pub = nh.advertise<geometry_msgs::PoseStamped>
@@ -82,7 +79,7 @@ int main(int argc, char **argv) {
 
 
     //the setpoint publishing rate MUST be faster than 2Hz
-    ros::Rate rate(20.0);
+    ros::Rate rate(constants.TS);
 
     // wait for FCU connection
     while(ros::ok() && !current_state.connected){
@@ -158,9 +155,9 @@ int main(int argc, char **argv) {
             ROS_INFO_ONCE("Calling PID"); 
             pid(10.0);
         }
-        
+
         //message
-        sp_attitude_pub.publish(att); 
+        sp_attitude_pub.publish(att);
 
         ros::spinOnce();
         rate.sleep();

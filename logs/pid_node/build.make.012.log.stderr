@@ -1,0 +1,7 @@
+[01m[K/home/nate/RASA/RASA-Drone/src/pid_node/src/offb_vel_node.cpp:[m[K In function ‘[01m[Kvoid pid(float)[m[K’:
+[01m[K/home/nate/RASA/RASA-Drone/src/pid_node/src/offb_vel_node.cpp:56:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Ku[m[K’
+   56 |     [01;31m[Ku[m[K = P + I;
+      |     [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/thrust_pid.dir/build.make:63: CMakeFiles/thrust_pid.dir/src/offb_vel_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1341: CMakeFiles/thrust_pid.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
