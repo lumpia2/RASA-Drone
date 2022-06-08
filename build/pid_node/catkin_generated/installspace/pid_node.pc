@@ -1,4 +1,4 @@
-prefix=/home/nate/RASA/RASA-Drone/install
+prefix=/home/malloc/RASA-Drone/install
 
 Name: pid_node
 Description: Description of pid_node

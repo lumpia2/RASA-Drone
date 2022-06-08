@@ -1,1 +1,0 @@
-#define MAVLINK_VERSION "2022.2.2"

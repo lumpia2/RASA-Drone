@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nate/RASA/RASA-Drone/src/pid_node
+CMAKE_SOURCE_DIR = /home/malloc/RASA-Drone/src/pid_node
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nate/RASA/RASA-Drone/build/pid_node
+CMAKE_BINARY_DIR = /home/malloc/RASA-Drone/build/pid_node
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/pid_node/CMakeFiles /home/nate/RASA/RASA-Drone/build/pid_node/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/malloc/RASA-Drone/build/pid_node/CMakeFiles /home/malloc/RASA-Drone/build/pid_node/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/RASA/RASA-Drone/build/pid_node/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/malloc/RASA-Drone/build/pid_node/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
