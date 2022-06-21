@@ -1,0 +1,34 @@
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/nate/RASA/RASA-Drone/devel/.private/pid_node
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/nate/RASA/RASA-Drone/devel;/opt/ros/noetic
+[36m--[0m This workspace overlays: /home/nate/RASA/RASA-Drone/devel;/opt/ros/noetic
+[36m--[0m Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python3
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /usr/lib/python3/dist-packages/em.py
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/nate/RASA/RASA-Drone/build/pid_node/test_results
+[36m--[0m Forcing gtest/gmock from source, though one was otherwise available.
+[36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
+[36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
+[36m--[0m Found PythonInterp: /usr/bin/python3 (found version "3.8.10")
+[36m--[0m Using Python nosetests: /usr/bin/nosetests3
+[36m--[0m catkin 0.8.10
+[36m--[0m BUILD_SHARED_LIBS is on
+/home/nate/RASA/RASA-Drone/src/pid_node
+[36m--[0m Configuring done
+[31m[1mCMake Error[0m at /home/nate/RASA/RASA-Drone/src/pid_node/CMakeLists.txt:127 (add_library):
+  Cannot find source file:
+
+    src/pid_node/src/include/pid.h
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+[31m[1mCMake Error[0m at /home/nate/RASA/RASA-Drone/src/pid_node/CMakeLists.txt:127 (add_library):
+  No SOURCES given to target: pid_lib
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+make: *** [Makefile:968: cmake_check_build_system] Error 1

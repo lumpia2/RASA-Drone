@@ -9,6 +9,5 @@
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/nate/RASA/RASA-Drone/devel/.private/libmavconn:$CMAKE_PREFIX_PATH"
 export PWD='/home/nate/RASA/RASA-Drone/build/libmavconn'
-export PYTHONPATH="/home/nate/RASA/RASA-Drone/devel/lib/python3/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/nate/RASA/RASA-Drone/devel/.private/libmavconn/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/nate/RASA/RASA-Drone/src/mavros/libmavconn:$ROS_PACKAGE_PATH"

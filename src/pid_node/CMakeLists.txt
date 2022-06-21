@@ -1,5 +1,8 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(pid_node)
+project(pid_node LANGUAGES C CXX)
+
+## Adding custom lib
+# add_subdirectory(${CMAKE_SOURCE_DIR}/include)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -103,8 +106,8 @@ find_package(catkin REQUIRED COMPONENTS
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-#  INCLUDE_DIRS include
-#  LIBRARIES offboard
+ INCLUDE_DIRS src/include
+ LIBRARIES pid_node
  CATKIN_DEPENDS mavros_msgs roscpp rospy std_msgs message_runtime
 #  DEPENDS system_lib
 )
@@ -116,14 +119,20 @@ catkin_package(
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 include_directories(
-# include
+  src/${PROJECT_NAME}/include
   ${catkin_INCLUDE_DIRS}
 )
-
+message("${PROJECT_SOURCE_DIR}")
 ## Declare a C++ library
-# add_library(${PROJECT_NAME}
-#   src/${PROJECT_NAME}/offboard.cpp
-# )
+add_library( pid_lib
+  ${PROJECT_SOURCE_DIR}/src/include/pid.h
+  ${PROJECT_SOURCE_DIR}/src/include/pid.cpp
+  # include/pid.cpp
+  # include/pid.cpp
+  # src/${PROJECT_NAME}/src/include/pid.h  
+  # src/${PROJECT_NAME}/src/include/pid.cpp  
+  # ${CMAKE_SOURCE_DIR}/include/pid.cpp
+)
 
 ## Add cmake target dependencies of the library
 ## as an example, code may need to be generated before libraries
@@ -135,7 +144,9 @@ include_directories(
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/offboard_node.cpp)
 # add_executable(offboard_node src/offb_node.cpp)
-add_executable(thrust_pid src/offb_vel_node.cpp)
+add_executable(${PROJECT_NAME} src/controller.cpp)
+# set_target_properties(${PROJECT_NAME} PROPERTIES LINKER_LANGUAGE CXX)
+
 # add_executable(thrust_controller src/thrust_controller.cpp)
 
 ## Rename C++ executable without prefix
@@ -149,12 +160,13 @@ add_executable(thrust_pid src/offb_vel_node.cpp)
 # add_dependencies(${PROJECT_NAME}_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
-# target_link_libraries(${PROJECT_NAME}_node
-#   ${catkin_LIBRARIES}
-# )
-
+target_link_libraries(${PROJECT_NAME}
+  ${catkin_LIBRARIES}
+  pid_lib
+)
+target_include_directories(${PROJECT_NAME} PUBLIC ${PROJECT_SOURCE_DIR}/src/include)
 # target_link_libraries(offboard_node ${catkin_LIBRARIES})
-target_link_libraries(thrust_pid ${catkin_LIBRARIES})
+# target_link_l4ibraries(controller ${catkin_LIBRARIES})
 # target_link_libraries(thrust_controller ${catkin_LIBRARIES})
 #############
 ## Install ##

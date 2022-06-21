@@ -1,0 +1,10 @@
+[ 50%] Built target pid_lib
+[35m[1mScanning dependencies of target pid_node[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/pid_node.dir/src/offb_vel_node.cpp.o[0m
+[01m[K/home/nate/RASA/RASA-Drone/src/pid_node/src/offb_vel_node.cpp:11:10:[m[K [01;31m[Kfatal error: [m[Kinclude/pid.h: No such file or directory
+   11 | #include [01;31m[K"include/pid.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/pid_node.dir/build.make:63: CMakeFiles/pid_node.dir/src/offb_vel_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1019: CMakeFiles/pid_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

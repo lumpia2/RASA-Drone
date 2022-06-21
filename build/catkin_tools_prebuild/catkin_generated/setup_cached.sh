@@ -13,4 +13,4 @@ export PKG_CONFIG_PATH='/opt/ros/noetic/lib/pkgconfig'
 export PWD='/home/nate/RASA/RASA-Drone/build/catkin_tools_prebuild'
 export PYTHONPATH='/opt/ros/noetic/lib/python3/dist-packages'
 export ROSLISP_PACKAGE_DIRECTORIES="/home/nate/RASA/RASA-Drone/devel/.private/catkin_tools_prebuild/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH='/home/nate/RASA/RASA-Drone/build/catkin_tools_prebuild:/home/nate/RASA/RASA-Drone/src/mavlink:/home/nate/RASA/RASA-Drone/src/mavros/libmavconn:/home/nate/RASA/RASA-Drone/src/mavros/mavros_msgs:/home/nate/RASA/RASA-Drone/src/mavros/mavros:/home/nate/RASA/RASA-Drone/src/mavros/mavros_extras:/home/nate/RASA/RASA-Drone/src/pid_node:/home/nate/RASA/RASA-Drone/src/mavros/test_mavros:/opt/ros/noetic/share'
+export ROS_PACKAGE_PATH="/home/nate/RASA/RASA-Drone/build/catkin_tools_prebuild:$ROS_PACKAGE_PATH"

@@ -176,8 +176,8 @@ CMakeFiles/mavros_msgs_generate_messages_lisp: /home/nate/RASA/RASA-Drone/devel/
 /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/AttitudeTarget.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/AttitudeTarget.lisp: /home/nate/RASA/RASA-Drone/src/mavros/mavros_msgs/msg/AttitudeTarget.msg
 /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/AttitudeTarget.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-/home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/AttitudeTarget.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/AttitudeTarget.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/AttitudeTarget.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nate/RASA/RASA-Drone/build/mavros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Lisp code from mavros_msgs/AttitudeTarget.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/nate/RASA/RASA-Drone/src/mavros/mavros_msgs/msg/AttitudeTarget.msg -Imavros_msgs:/home/nate/RASA/RASA-Drone/src/mavros/mavros_msgs/msg -Igeographic_msgs:/opt/ros/noetic/share/geographic_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iuuid_msgs:/opt/ros/noetic/share/uuid_msgs/cmake/../msg -p mavros_msgs -o /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg
 
@@ -195,8 +195,8 @@ CMakeFiles/mavros_msgs_generate_messages_lisp: /home/nate/RASA/RASA-Drone/devel/
 /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/CameraImageCaptured.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/CameraImageCaptured.lisp: /home/nate/RASA/RASA-Drone/src/mavros/mavros_msgs/msg/CameraImageCaptured.msg
 /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/CameraImageCaptured.lisp: /opt/ros/noetic/share/geographic_msgs/msg/GeoPoint.msg
-/home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/CameraImageCaptured.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/CameraImageCaptured.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/CameraImageCaptured.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nate/RASA/RASA-Drone/build/mavros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Lisp code from mavros_msgs/CameraImageCaptured.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/nate/RASA/RASA-Drone/src/mavros/mavros_msgs/msg/CameraImageCaptured.msg -Imavros_msgs:/home/nate/RASA/RASA-Drone/src/mavros/mavros_msgs/msg -Igeographic_msgs:/opt/ros/noetic/share/geographic_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iuuid_msgs:/opt/ros/noetic/share/uuid_msgs/cmake/../msg -p mavros_msgs -o /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg
 
@@ -238,8 +238,8 @@ CMakeFiles/mavros_msgs_generate_messages_lisp: /home/nate/RASA/RASA-Drone/devel/
 
 /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/ESCStatus.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/ESCStatus.lisp: /home/nate/RASA/RASA-Drone/src/mavros/mavros_msgs/msg/ESCStatus.msg
-/home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/ESCStatus.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/ESCStatus.lisp: /home/nate/RASA/RASA-Drone/src/mavros/mavros_msgs/msg/ESCStatusItem.msg
+/home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/ESCStatus.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nate/RASA/RASA-Drone/build/mavros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Lisp code from mavros_msgs/ESCStatus.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/nate/RASA/RASA-Drone/src/mavros/mavros_msgs/msg/ESCStatus.msg -Imavros_msgs:/home/nate/RASA/RASA-Drone/src/mavros/mavros_msgs/msg -Igeographic_msgs:/opt/ros/noetic/share/geographic_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iuuid_msgs:/opt/ros/noetic/share/uuid_msgs/cmake/../msg -p mavros_msgs -o /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg
 
@@ -251,8 +251,8 @@ CMakeFiles/mavros_msgs_generate_messages_lisp: /home/nate/RASA/RASA-Drone/devel/
 
 /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/ESCTelemetry.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/ESCTelemetry.lisp: /home/nate/RASA/RASA-Drone/src/mavros/mavros_msgs/msg/ESCTelemetry.msg
-/home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/ESCTelemetry.lisp: /home/nate/RASA/RASA-Drone/src/mavros/mavros_msgs/msg/ESCTelemetryItem.msg
 /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/ESCTelemetry.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/ESCTelemetry.lisp: /home/nate/RASA/RASA-Drone/src/mavros/mavros_msgs/msg/ESCTelemetryItem.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nate/RASA/RASA-Drone/build/mavros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Lisp code from mavros_msgs/ESCTelemetry.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/nate/RASA/RASA-Drone/src/mavros/mavros_msgs/msg/ESCTelemetry.msg -Imavros_msgs:/home/nate/RASA/RASA-Drone/src/mavros/mavros_msgs/msg -Igeographic_msgs:/opt/ros/noetic/share/geographic_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iuuid_msgs:/opt/ros/noetic/share/uuid_msgs/cmake/../msg -p mavros_msgs -o /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg
 
@@ -332,29 +332,29 @@ CMakeFiles/mavros_msgs_generate_messages_lisp: /home/nate/RASA/RASA-Drone/devel/
 
 /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/HilStateQuaternion.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/HilStateQuaternion.lisp: /home/nate/RASA/RASA-Drone/src/mavros/mavros_msgs/msg/HilStateQuaternion.msg
-/home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/HilStateQuaternion.lisp: /opt/ros/noetic/share/geographic_msgs/msg/GeoPoint.msg
 /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/HilStateQuaternion.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-/home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/HilStateQuaternion.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/HilStateQuaternion.lisp: /opt/ros/noetic/share/geographic_msgs/msg/GeoPoint.msg
 /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/HilStateQuaternion.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/HilStateQuaternion.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nate/RASA/RASA-Drone/build/mavros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating Lisp code from mavros_msgs/HilStateQuaternion.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/nate/RASA/RASA-Drone/src/mavros/mavros_msgs/msg/HilStateQuaternion.msg -Imavros_msgs:/home/nate/RASA/RASA-Drone/src/mavros/mavros_msgs/msg -Igeographic_msgs:/opt/ros/noetic/share/geographic_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iuuid_msgs:/opt/ros/noetic/share/uuid_msgs/cmake/../msg -p mavros_msgs -o /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg
 
 /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/HomePosition.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/HomePosition.lisp: /home/nate/RASA/RASA-Drone/src/mavros/mavros_msgs/msg/HomePosition.msg
-/home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/HomePosition.lisp: /opt/ros/noetic/share/geographic_msgs/msg/GeoPoint.msg
 /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/HomePosition.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/HomePosition.lisp: /opt/ros/noetic/share/geographic_msgs/msg/GeoPoint.msg
+/home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/HomePosition.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/HomePosition.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/HomePosition.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/HomePosition.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nate/RASA/RASA-Drone/build/mavros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating Lisp code from mavros_msgs/HomePosition.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/nate/RASA/RASA-Drone/src/mavros/mavros_msgs/msg/HomePosition.msg -Imavros_msgs:/home/nate/RASA/RASA-Drone/src/mavros/mavros_msgs/msg -Igeographic_msgs:/opt/ros/noetic/share/geographic_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iuuid_msgs:/opt/ros/noetic/share/uuid_msgs/cmake/../msg -p mavros_msgs -o /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg
 
 /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/LandingTarget.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/LandingTarget.lisp: /home/nate/RASA/RASA-Drone/src/mavros/mavros_msgs/msg/LandingTarget.msg
 /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/LandingTarget.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/LandingTarget.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/LandingTarget.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/LandingTarget.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/LandingTarget.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nate/RASA/RASA-Drone/build/mavros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating Lisp code from mavros_msgs/LandingTarget.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/nate/RASA/RASA-Drone/src/mavros/mavros_msgs/msg/LandingTarget.msg -Imavros_msgs:/home/nate/RASA/RASA-Drone/src/mavros/mavros_msgs/msg -Igeographic_msgs:/opt/ros/noetic/share/geographic_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iuuid_msgs:/opt/ros/noetic/share/uuid_msgs/cmake/../msg -p mavros_msgs -o /home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg
 
