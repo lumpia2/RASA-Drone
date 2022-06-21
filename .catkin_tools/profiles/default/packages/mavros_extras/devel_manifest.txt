@@ -1,8 +1,0 @@
-mavros/mavros_extras
-/home/nate/RASA/RASA-Drone/devel/.private/mavros_extras/cmake.lock /home/nate/RASA/RASA-Drone/devel/./cmake.lock
-/home/nate/RASA/RASA-Drone/devel/.private/mavros_extras/lib/libmavros_extras.so /home/nate/RASA/RASA-Drone/devel/lib/libmavros_extras.so
-/home/nate/RASA/RASA-Drone/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher /home/nate/RASA/RASA-Drone/devel/lib/mavros_extras/servo_state_publisher
-/home/nate/RASA/RASA-Drone/devel/.private/mavros_extras/lib/mavros_extras/visualization /home/nate/RASA/RASA-Drone/devel/lib/mavros_extras/visualization
-/home/nate/RASA/RASA-Drone/devel/.private/mavros_extras/lib/pkgconfig/mavros_extras.pc /home/nate/RASA/RASA-Drone/devel/lib/pkgconfig/mavros_extras.pc
-/home/nate/RASA/RASA-Drone/devel/.private/mavros_extras/share/mavros_extras/cmake/mavros_extrasConfig.cmake /home/nate/RASA/RASA-Drone/devel/share/mavros_extras/cmake/mavros_extrasConfig.cmake
-/home/nate/RASA/RASA-Drone/devel/.private/mavros_extras/share/mavros_extras/cmake/mavros_extrasConfig-version.cmake /home/nate/RASA/RASA-Drone/devel/share/mavros_extras/cmake/mavros_extrasConfig-version.cmake

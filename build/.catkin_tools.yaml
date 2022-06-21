@@ -1,6 +1,6 @@
-devel_space: /home/nate/RASA/RASA-Drone/devel
+devel_space: /home/malloc/RASA-Drone/devel
 install: false
-install_space: /home/nate/RASA/RASA-Drone/install
+install_space: /home/malloc/RASA-Drone/install
 profile: default
-source_space: /home/nate/RASA/RASA-Drone/src
-workspace: /home/nate/RASA/RASA-Drone
+source_space: /home/malloc/RASA-Drone/src
+workspace: /home/malloc/RASA-Drone
