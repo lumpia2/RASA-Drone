@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 Linked: (/home/nate/RASA/RASA-Drone/devel/.private/pid_node/lib/libpid_lib.so, /home/nate/RASA/RASA-Drone/devel/lib/libpid_lib.so)
 Linked: (/home/nate/RASA/RASA-Drone/devel/.private/pid_node/lib/pid_node/pid_node, /home/nate/RASA/RASA-Drone/devel/lib/pid_node/pid_node)
 Linked: (/home/nate/RASA/RASA-Drone/devel/.private/pid_node/lib/pkgconfig/pid_node.pc, /home/nate/RASA/RASA-Drone/devel/lib/pkgconfig/pid_node.pc)
 Linked: (/home/nate/RASA/RASA-Drone/devel/.private/pid_node/share/pid_node/cmake/pid_nodeConfig-version.cmake, /home/nate/RASA/RASA-Drone/devel/share/pid_node/cmake/pid_nodeConfig-version.cmake)
 Linked: (/home/nate/RASA/RASA-Drone/devel/.private/pid_node/share/pid_node/cmake/pid_nodeConfig.cmake, /home/nate/RASA/RASA-Drone/devel/share/pid_node/cmake/pid_nodeConfig.cmake)
+=======
+Symlinking /home/malloc/RASA-Drone/devel/lib/pkgconfig/pid_node.pc
+Symlinking /home/malloc/RASA-Drone/devel/lib/pid_node/thrust_pid
+Symlinking /home/malloc/RASA-Drone/devel/share/pid_node/cmake/pid_nodeConfig-version.cmake
+Symlinking /home/malloc/RASA-Drone/devel/share/pid_node/cmake/pid_nodeConfig.cmake
+>>>>>>> 52716a1819415de921121ecd363edc0784d8c35a

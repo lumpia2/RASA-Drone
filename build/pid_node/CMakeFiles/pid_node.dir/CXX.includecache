@@ -6,7 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/include/mavros_msgs/AttitudeTarget.h
+/home/malloc/RASA-Drone/src/pid_node/src/offb_vel_node.cpp
+ros/ros.h
+-
+geometry_msgs/PoseStamped.h
+-
+geometry_msgs/Quaternion.h
+-
+geometry_msgs/PoseStamped.h
+-
+geometry_msgs/Vector3.h
+-
+mavros_msgs/AttitudeTarget.h
+-
+mavros_msgs/CommandBool.h
+-
+mavros_msgs/SetMode.h
+-
+mavros_msgs/State.h
+-
+
+/home/malloc/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/AttitudeTarget.h
 string
 -
 vector
@@ -28,7 +48,7 @@ geometry_msgs/Quaternion.h
 geometry_msgs/Vector3.h
 -
 
-/home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/include/mavros_msgs/CommandBool.h
+/home/malloc/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/CommandBool.h
 ros/service_traits.h
 -
 mavros_msgs/CommandBoolRequest.h
@@ -36,7 +56,7 @@ mavros_msgs/CommandBoolRequest.h
 mavros_msgs/CommandBoolResponse.h
 -
 
-/home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/include/mavros_msgs/CommandBoolRequest.h
+/home/malloc/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/CommandBoolRequest.h
 string
 -
 vector
@@ -52,7 +72,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/include/mavros_msgs/CommandBoolResponse.h
+/home/malloc/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/CommandBoolResponse.h
 string
 -
 vector
@@ -68,7 +88,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/include/mavros_msgs/SetMode.h
+/home/malloc/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/SetMode.h
 ros/service_traits.h
 -
 mavros_msgs/SetModeRequest.h
@@ -76,7 +96,7 @@ mavros_msgs/SetModeRequest.h
 mavros_msgs/SetModeResponse.h
 -
 
-/home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/include/mavros_msgs/SetModeRequest.h
+/home/malloc/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/SetModeRequest.h
 string
 -
 vector
@@ -92,7 +112,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/include/mavros_msgs/SetModeResponse.h
+/home/malloc/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/SetModeResponse.h
 string
 -
 vector
@@ -108,7 +128,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/nate/RASA/RASA-Drone/devel/.private/mavros_msgs/include/mavros_msgs/State.h
+/home/malloc/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/State.h
 string
 -
 vector
@@ -126,6 +146,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
+<<<<<<< HEAD:build/pid_node/CMakeFiles/pid_node.dir/CXX.includecache
 /home/nate/RASA/RASA-Drone/src/pid_node/src/controller.cpp
 ros/ros.h
 -
@@ -158,6 +179,8 @@ geometry_msgs/PoseStamped.h
 mavros_msgs/AttitudeTarget.h
 -
 
+=======
+>>>>>>> 52716a1819415de921121ecd363edc0784d8c35a:build/pid_node/CMakeFiles/thrust_pid.dir/CXX.includecache
 /opt/ros/noetic/include/geometry_msgs/Point.h
 string
 -
