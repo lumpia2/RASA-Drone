@@ -33,9 +33,14 @@ int main(int argc, char **argv) {
     
     ros::init(argc, argv, "offb_node");
     ros::NodeHandle nh;
-    
-    // PID pid; 
-    PID pid(pose, att, options);
+
+    // Create PID to handle control      
+    PID pid(pose, att);
+
+    // Create setpoint variable (what we want to achieve)
+    geometry_msgs::PoseStamped sp; 
+    sp.pose.position.z = 5.0; 
+
     ROS_INFO("MADE PID with sampling time - %f", pid.samplingTime()); 
     ros::Subscriber pose_sub = nh.subscribe<geometry_msgs::PoseStamped>
             ("mavros/local_position/pose", 20, pose_cb); 
@@ -43,7 +48,7 @@ int main(int argc, char **argv) {
             ("mavros/state", 10, state_cb);
     ros::Publisher local_pos_pub = nh.advertise<geometry_msgs::PoseStamped>
             ("mavros/setpoint_position/local", 10);
-    ros::Publisher sp_attitude_pub = nh.advertise<mavros_msgs::AttitudeTarget>
+    ros::Publisher attitude_pub = nh.advertise<mavros_msgs::AttitudeTarget>
             ("mavros/setpoint_raw/attitude", 10);
     ros::ServiceClient arming_client = nh.serviceClient<mavros_msgs::CommandBool>
             ("mavros/cmd/arming");
@@ -64,9 +69,8 @@ int main(int argc, char **argv) {
 
     ROS_INFO("Connected to FCU"); 
     
-    //
-    // Create message for FCU 
-    //
+
+    // Create Quaternion and Vector for attitude message components 
     geometry_msgs::Quaternion q; 
     q.w = 1;
     q.x = 0;
@@ -78,17 +82,16 @@ int main(int argc, char **argv) {
     v.y = 0; 
     v.z = 0; 
 
-    //
-    // Initial values to send to the FCU 
-    //
+    
+    // Initial values to send attitude to the FCU 
     att.body_rate = v; 
     att.orientation = q; 
     att.thrust = 0.0; 
 
     //send a few setpoints before starting
-    for(int i = 100; ros::ok() && i > 0; --i)
+    for(size_t i = 100; ros::ok() && i > 0; --i)
     {
-        sp_attitude_pub.publish(att); 
+        attitude_pub.publish(att); 
         ros::spinOnce();
         rate.sleep();
     }
@@ -130,13 +133,12 @@ int main(int argc, char **argv) {
         {
             ROS_INFO_ONCE("Calling PID"); 
             // pid(10.0);
-            // pid.loop(); 
+            pid.loop(sp); 
         }
 
-        //message
-        sp_attitude_pub.publish(att);
+        //publish message
+        attitude_pub.publish(att);
 
-        ROS_INFO("Height: %f", pose.pose.position.z); 
         ros::spinOnce();
         rate.sleep();
     }

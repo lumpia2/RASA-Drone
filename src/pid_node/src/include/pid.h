@@ -1,7 +1,7 @@
 /**
  * @file pid.hh
- * @author your name (you@domain.com)
- * @brief 
+ * @author NMM (nmm109@pitt.edu)
+ * @brief Header file for the PID class 
  * @version 0.1
  * @date 2022-06-17
  * 
@@ -22,48 +22,48 @@
 // #include "pid.cc"
 
 /* PID IMPLEMENTATION  */
-void loop(float sp) 
-{ 
-    // e = sp - pose.pose.position.z; 
+// void loop(float sp) 
+// { 
+//     // e = sp - pose.pose.position.z; 
 
-    // u = u_1 + 
-    //     ( constants.KP + (constants.KD / constants.TS))*e + 
-    //     (-constants.KP - (2*constants.KD/constants.TS))*e_1 + 
-    //     (constants.KD/constants.TS)*e_2; 
+//     // u = u_1 + 
+//     //     ( constants.KP + (constants.KD / constants.TS))*e + 
+//     //     (-constants.KP - (2*constants.KD/constants.TS))*e_1 + 
+//     //     (constants.KD/constants.TS)*e_2; 
     
-    // if ( u > 1 ) att.thrust = 1.0; 
-    // else if ( u < 0 ) att.thrust = 0.0; 
-    // else att.thrust = u;  
+//     // if ( u > 1 ) att.thrust = 1.0; 
+//     // else if ( u < 0 ) att.thrust = 0.0; 
+//     // else att.thrust = u;  
 
-    // // Updating variables 
-    // u_1 = u; 
-    // e_2 = e_1; 
-    // e_1 = e; 
-}
+//     // // Updating variables 
+//     // u_1 = u; 
+//     // e_2 = e_1; 
+//     // e_1 = e; 
+// }
 
-/* PID gain values */
+/* PID gain values and sampling time*/
 struct pid_opts { 
-    double KP=0.6,
-                 KI=1.0, 
-                 KD=0.5;
-    double TS = 1/50.0; 
+    double  KP=1.0,
+            KI=1.0, //unused for now
+            KD=1.5;
+    double TS = 1/90.0; 
 } options; 
  
 class PID 
 { 
 public:
     PID( const geometry_msgs::PoseStamped&,
-            const mavros_msgs::AttitudeTarget&,
-            const pid_opts );
-    void loop(geometry_msgs::PoseStamped sp);  
+            mavros_msgs::AttitudeTarget&,
+            const pid_opts &opts = options);
+    void loop(geometry_msgs::PoseStamped&);  
     double samplingTime(); 
 
 private: 
     double u, u_1;  
     double e, e_1, e_2; 
     pid_opts opts; 
-    geometry_msgs::PoseStamped in; 
-    mavros_msgs::AttitudeTarget out; 
+    geometry_msgs::PoseStamped::ConstPtr pose; 
+    mavros_msgs::AttitudeTarget::Ptr att; 
 };
 
 #endif

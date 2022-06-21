@@ -146,7 +146,7 @@ mavros_msgs/SetMode.h
 mavros_msgs/State.h
 -
 pid.h
-/home/nate/RASA/RASA-Drone/src/pid_node/src/pid.h
+-
 
 /home/nate/RASA/RASA-Drone/src/pid_node/src/include/pid.h
 ros/ros.h
