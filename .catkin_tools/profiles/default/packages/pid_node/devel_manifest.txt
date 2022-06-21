@@ -1,6 +1,15 @@
 pid_node
+<<<<<<< HEAD
+/home/nate/RASA/RASA-Drone/devel/.private/pid_node/cmake.lock /home/nate/RASA/RASA-Drone/devel/./cmake.lock
+/home/nate/RASA/RASA-Drone/devel/.private/pid_node/lib/libpid_lib.so /home/nate/RASA/RASA-Drone/devel/lib/libpid_lib.so
+/home/nate/RASA/RASA-Drone/devel/.private/pid_node/lib/pid_node/pid_node /home/nate/RASA/RASA-Drone/devel/lib/pid_node/pid_node
+/home/nate/RASA/RASA-Drone/devel/.private/pid_node/lib/pkgconfig/pid_node.pc /home/nate/RASA/RASA-Drone/devel/lib/pkgconfig/pid_node.pc
+/home/nate/RASA/RASA-Drone/devel/.private/pid_node/share/pid_node/cmake/pid_nodeConfig-version.cmake /home/nate/RASA/RASA-Drone/devel/share/pid_node/cmake/pid_nodeConfig-version.cmake
+/home/nate/RASA/RASA-Drone/devel/.private/pid_node/share/pid_node/cmake/pid_nodeConfig.cmake /home/nate/RASA/RASA-Drone/devel/share/pid_node/cmake/pid_nodeConfig.cmake
+=======
 /home/malloc/RASA-Drone/devel/.private/pid_node/cmake.lock /home/malloc/RASA-Drone/devel/./cmake.lock
 /home/malloc/RASA-Drone/devel/.private/pid_node/lib/pkgconfig/pid_node.pc /home/malloc/RASA-Drone/devel/lib/pkgconfig/pid_node.pc
 /home/malloc/RASA-Drone/devel/.private/pid_node/lib/pid_node/thrust_pid /home/malloc/RASA-Drone/devel/lib/pid_node/thrust_pid
 /home/malloc/RASA-Drone/devel/.private/pid_node/share/pid_node/cmake/pid_nodeConfig-version.cmake /home/malloc/RASA-Drone/devel/share/pid_node/cmake/pid_nodeConfig-version.cmake
 /home/malloc/RASA-Drone/devel/.private/pid_node/share/pid_node/cmake/pid_nodeConfig.cmake /home/malloc/RASA-Drone/devel/share/pid_node/cmake/pid_nodeConfig.cmake
+>>>>>>> 52716a1819415de921121ecd363edc0784d8c35a

@@ -246,6 +246,19 @@ sensor_msgs_generate_messages_nodejs/fast:
 .PHONY : sensor_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
+# Target rules for targets named pid_lib
+
+# Build rule for target.
+pid_lib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pid_lib
+.PHONY : pid_lib
+
+# fast build rule for target.
+pid_lib/fast:
+	$(MAKE) -f CMakeFiles/pid_lib.dir/build.make CMakeFiles/pid_lib.dir/build
+.PHONY : pid_lib/fast
+
+#=============================================================================
 # Target rules for targets named roscpp_generate_messages_cpp
 
 # Build rule for target.
@@ -558,6 +571,19 @@ geometry_msgs_generate_messages_cpp/fast:
 .PHONY : geometry_msgs_generate_messages_cpp/fast
 
 #=============================================================================
+# Target rules for targets named pid_node
+
+# Build rule for target.
+pid_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pid_node
+.PHONY : pid_node
+
+# fast build rule for target.
+pid_node/fast:
+	$(MAKE) -f CMakeFiles/pid_node.dir/build.make CMakeFiles/pid_node.dir/build
+.PHONY : pid_node/fast
+
+#=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_nodejs
 
 # Build rule for target.
@@ -727,19 +753,6 @@ std_msgs_generate_messages_py/fast:
 .PHONY : std_msgs_generate_messages_py/fast
 
 #=============================================================================
-# Target rules for targets named thrust_pid
-
-# Build rule for target.
-thrust_pid: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 thrust_pid
-.PHONY : thrust_pid
-
-# fast build rule for target.
-thrust_pid/fast:
-	$(MAKE) -f CMakeFiles/thrust_pid.dir/build.make CMakeFiles/thrust_pid.dir/build
-.PHONY : thrust_pid/fast
-
-#=============================================================================
 # Target rules for targets named std_msgs_generate_messages_lisp
 
 # Build rule for target.
@@ -817,32 +830,59 @@ gtest/fast:
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
-src/offb_vel_node.o: src/offb_vel_node.cpp.o
+src/controller.o: src/controller.cpp.o
 
-.PHONY : src/offb_vel_node.o
+.PHONY : src/controller.o
 
 # target to build an object file
-src/offb_vel_node.cpp.o:
-	$(MAKE) -f CMakeFiles/thrust_pid.dir/build.make CMakeFiles/thrust_pid.dir/src/offb_vel_node.cpp.o
-.PHONY : src/offb_vel_node.cpp.o
+src/controller.cpp.o:
+	$(MAKE) -f CMakeFiles/pid_node.dir/build.make CMakeFiles/pid_node.dir/src/controller.cpp.o
+.PHONY : src/controller.cpp.o
 
-src/offb_vel_node.i: src/offb_vel_node.cpp.i
+src/controller.i: src/controller.cpp.i
 
-.PHONY : src/offb_vel_node.i
+.PHONY : src/controller.i
 
 # target to preprocess a source file
-src/offb_vel_node.cpp.i:
-	$(MAKE) -f CMakeFiles/thrust_pid.dir/build.make CMakeFiles/thrust_pid.dir/src/offb_vel_node.cpp.i
-.PHONY : src/offb_vel_node.cpp.i
+src/controller.cpp.i:
+	$(MAKE) -f CMakeFiles/pid_node.dir/build.make CMakeFiles/pid_node.dir/src/controller.cpp.i
+.PHONY : src/controller.cpp.i
 
-src/offb_vel_node.s: src/offb_vel_node.cpp.s
+src/controller.s: src/controller.cpp.s
 
-.PHONY : src/offb_vel_node.s
+.PHONY : src/controller.s
 
 # target to generate assembly for a file
-src/offb_vel_node.cpp.s:
-	$(MAKE) -f CMakeFiles/thrust_pid.dir/build.make CMakeFiles/thrust_pid.dir/src/offb_vel_node.cpp.s
-.PHONY : src/offb_vel_node.cpp.s
+src/controller.cpp.s:
+	$(MAKE) -f CMakeFiles/pid_node.dir/build.make CMakeFiles/pid_node.dir/src/controller.cpp.s
+.PHONY : src/controller.cpp.s
+
+src/include/pid.o: src/include/pid.cpp.o
+
+.PHONY : src/include/pid.o
+
+# target to build an object file
+src/include/pid.cpp.o:
+	$(MAKE) -f CMakeFiles/pid_lib.dir/build.make CMakeFiles/pid_lib.dir/src/include/pid.cpp.o
+.PHONY : src/include/pid.cpp.o
+
+src/include/pid.i: src/include/pid.cpp.i
+
+.PHONY : src/include/pid.i
+
+# target to preprocess a source file
+src/include/pid.cpp.i:
+	$(MAKE) -f CMakeFiles/pid_lib.dir/build.make CMakeFiles/pid_lib.dir/src/include/pid.cpp.i
+.PHONY : src/include/pid.cpp.i
+
+src/include/pid.s: src/include/pid.cpp.s
+
+.PHONY : src/include/pid.s
+
+# target to generate assembly for a file
+src/include/pid.cpp.s:
+	$(MAKE) -f CMakeFiles/pid_lib.dir/build.make CMakeFiles/pid_lib.dir/src/include/pid.cpp.s
+.PHONY : src/include/pid.cpp.s
 
 # Help Target
 help:
@@ -860,6 +900,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... roscpp_generate_messages_eus"
 	@echo "... sensor_msgs_generate_messages_nodejs"
+	@echo "... pid_lib"
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... sensor_msgs_generate_messages_eus"
 	@echo "... uuid_msgs_generate_messages_py"
@@ -886,6 +927,7 @@ help:
 	@echo "... tests"
 	@echo "... geographic_msgs_generate_messages_nodejs"
 	@echo "... geometry_msgs_generate_messages_cpp"
+	@echo "... pid_node"
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... test"
 	@echo "... rosgraph_msgs_generate_messages_cpp"
@@ -900,16 +942,18 @@ help:
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_py"
-	@echo "... thrust_pid"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... uuid_msgs_generate_messages_cpp"
 	@echo "... gmock_main"
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... src/offb_vel_node.o"
-	@echo "... src/offb_vel_node.i"
-	@echo "... src/offb_vel_node.s"
+	@echo "... src/controller.o"
+	@echo "... src/controller.i"
+	@echo "... src/controller.s"
+	@echo "... src/include/pid.o"
+	@echo "... src/include/pid.i"
+	@echo "... src/include/pid.s"
 .PHONY : help
 
 

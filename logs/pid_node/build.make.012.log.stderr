@@ -1,0 +1,23 @@
+[01m[K/home/nate/RASA/RASA-Drone/src/pid_node/src/include/pid.cpp:[m[K In constructor ‘[01m[KPID::PID(const PoseStamped&, const AttitudeTarget&, pid_opts)[m[K’:
+[01m[K/home/nate/RASA/RASA-Drone/src/pid_node/src/include/pid.cpp:18:9:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KPID[m[K’ does not have any field named ‘[01m[Kpose[m[K’
+   18 |         [01;31m[Kpose[m[K(pose), att(att)
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/nate/RASA/RASA-Drone/src/pid_node/src/include/pid.cpp:18:21:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KPID[m[K’ does not have any field named ‘[01m[Katt[m[K’
+   18 |         pose(pose), [01;31m[Katt[m[K(att)
+      |                     [01;31m[K^~~[m[K
+[01m[K/home/nate/RASA/RASA-Drone/src/pid_node/src/include/pid.cpp:[m[K In member function ‘[01m[Kvoid PID::loop(geometry_msgs::PoseStamped&)[m[K’:
+[01m[K/home/nate/RASA/RASA-Drone/src/pid_node/src/include/pid.cpp:30:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose[m[K’ was not declared in this scope
+   30 |     e = sp.pose.position.z - [01;31m[Kpose[m[K.pose.position.z;
+      |                              [01;31m[K^~~~[m[K
+[01m[K/home/nate/RASA/RASA-Drone/src/pid_node/src/include/pid.cpp:37:17:[m[K [01;31m[Kerror: [m[K‘[01m[Katt[m[K’ was not declared in this scope
+   37 |     if( u > 1 ) [01;31m[Katt[m[K.thrust = 1.0;
+      |                 [01;31m[K^~~[m[K
+[01m[K/home/nate/RASA/RASA-Drone/src/pid_node/src/include/pid.cpp:38:23:[m[K [01;31m[Kerror: [m[K‘[01m[Katt[m[K’ was not declared in this scope
+   38 |     else if ( u < 0 ) [01;31m[Katt[m[K.thrust = 0.0;
+      |                       [01;31m[K^~~[m[K
+[01m[K/home/nate/RASA/RASA-Drone/src/pid_node/src/include/pid.cpp:39:10:[m[K [01;31m[Kerror: [m[K‘[01m[Katt[m[K’ was not declared in this scope
+   39 |     else [01;31m[Katt[m[K.thrust = u;
+      |          [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/pid_lib.dir/build.make:63: CMakeFiles/pid_lib.dir/src/include/pid.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:344: CMakeFiles/pid_lib.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
