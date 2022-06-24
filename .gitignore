@@ -2,6 +2,7 @@
 **
 !src/
 src/pid_node/build/
+.catkin_tools
 
 .vscode/*
 !.vscode/settings.json
