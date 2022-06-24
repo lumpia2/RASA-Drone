@@ -1,6 +1,1 @@
-<<<<<<< HEAD
-/home/nate/RASA/RASA-Drone/devel/./cmake.lock 1445
-=======
-/home/nate/RASA/RASA-Drone/devel/./cmake.lock 353
-/home/malloc/RASA-Drone/devel/./cmake.lock 1
->>>>>>> 52716a1819415de921121ecd363edc0784d8c35a
+/home/malloc/ras/RASA-Drone/devel/./cmake.lock 30

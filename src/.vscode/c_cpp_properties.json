@@ -6,14 +6,14 @@
         "limitSymbolsToIncludedHeaders": false
       },
       "includePath": [
-        "/home/nate/RASA/RASA-Drone/devel/include/**",
-        "/home/nate/catkin_ws/devel/include/**",
+        "/home/malloc/ras/RASA-Drone/devel/include/**",
+        "/home/malloc/catkin_ws/devel/include/**",
         "/opt/ros/noetic/include/**",
-        "/home/nate/RASA/RASA-Drone/src/mavros/libmavconn/include/**",
-        "/home/nate/RASA/RASA-Drone/src/mavros/mavros/include/**",
-        "/home/nate/RASA/RASA-Drone/src/mavros/mavros_msgs/include/**",
-        "/home/nate/RASA/RASA-Drone/src/offboard/include/**",
-        "/home/nate/RASA/RASA-Drone/src/mavros/test_mavros/include/**",
+        "/home/malloc/ras/RASA-Drone/src/mavros/libmavconn/include/**",
+        "/home/malloc/ras/RASA-Drone/src/mavros/mavros/include/**",
+        "/home/malloc/ras/RASA-Drone/src/mavros/mavros_msgs/include/**",
+        "/home/malloc/ras/RASA-Drone/src//include/**",
+        "/home/malloc/ras/RASA-Drone/src/mavros/test_mavros/include/**",
         "/usr/include/**"
       ],
       "name": "ROS",

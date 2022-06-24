@@ -1,15 +1,5 @@
-<<<<<<< HEAD
-[35m[1mScanning dependencies of target pid_lib[0m
-[ 25%] [32mBuilding CXX object CMakeFiles/pid_lib.dir/src/include/pid.cpp.o[0m
-[ 50%] [32m[1mLinking CXX shared library /home/nate/RASA/RASA-Drone/devel/.private/pid_node/lib/libpid_lib.so[0m
 [ 50%] Built target pid_lib
 [35m[1mScanning dependencies of target pid_node[0m
 [ 75%] [32mBuilding CXX object CMakeFiles/pid_node.dir/src/controller.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /home/nate/RASA/RASA-Drone/devel/.private/pid_node/lib/pid_node/pid_node[0m
+[100%] [32m[1mLinking CXX executable /home/malloc/ras/RASA-Drone/devel/.private/pid_node/lib/pid_node/pid_node[0m
 [100%] Built target pid_node
-=======
-[35m[1mScanning dependencies of target thrust_pid[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/thrust_pid.dir/src/offb_vel_node.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /home/malloc/RASA-Drone/devel/.private/pid_node/lib/pid_node/thrust_pid[0m
-[100%] Built target thrust_pid
->>>>>>> 52716a1819415de921121ecd363edc0784d8c35a
