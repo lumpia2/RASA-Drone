@@ -1,5 +1,0 @@
-Symlinking /home/malloc/ras/RASA-Drone/devel/lib/libpid_lib.so
-Symlinking /home/malloc/ras/RASA-Drone/devel/lib/pkgconfig/pid_node.pc
-Symlinking /home/malloc/ras/RASA-Drone/devel/lib/pid_node/pid_node
-Symlinking /home/malloc/ras/RASA-Drone/devel/share/pid_node/cmake/pid_nodeConfig-version.cmake
-Symlinking /home/malloc/ras/RASA-Drone/devel/share/pid_node/cmake/pid_nodeConfig.cmake
