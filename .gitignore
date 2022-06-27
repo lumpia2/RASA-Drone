@@ -1,8 +1,8 @@
 ## RASA-Drone
-**
 
-!src/**
-!scripts/**
+build/
+devel/
+logs/
 src/pid_node/build/
 .catkin_tools
 
