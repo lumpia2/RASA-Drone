@@ -1,6 +1,6 @@
-s# RASA-Drone
+## RASA-Drone
 **
-!stuff.txt
+
 !src/
 !scripts/
 src/pid_node/build/
