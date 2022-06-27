@@ -1,1 +1,0 @@
-/home/nate/RASA/RASA-Drone/devel/.private/libmavconn/lib/pkgconfig/libmavconn.pc

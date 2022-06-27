@@ -7,7 +7,7 @@
       },
       "includePath": [
         "/opt/ros/noetic/include/**",
-        "/home/nate/catkin_ws/src/offboard/include/**",
+        "/home/nate/ras/RASA-Drone/src/pid_node/src/include/**",
         "/usr/include/**"
       ],
       "name": "ROS",

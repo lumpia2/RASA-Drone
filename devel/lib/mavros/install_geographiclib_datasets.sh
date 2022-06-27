@@ -1,1 +1,0 @@
-/home/nate/RASA/RASA-Drone/devel/.private/mavros/lib/mavros/install_geographiclib_datasets.sh

@@ -1,5 +1,0 @@
-Symlinking /home/nate/RASA/RASA-Drone/devel/lib/libmavconn.so
-Symlinking /home/nate/RASA/RASA-Drone/devel/lib/pkgconfig/libmavconn.pc
-Symlinking /home/nate/RASA/RASA-Drone/devel/share/libmavconn/cmake/libmavconn-extras.cmake
-Symlinking /home/nate/RASA/RASA-Drone/devel/share/libmavconn/cmake/libmavconnConfig-version.cmake
-Symlinking /home/nate/RASA/RASA-Drone/devel/share/libmavconn/cmake/libmavconnConfig.cmake

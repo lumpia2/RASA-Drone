@@ -1,3 +1,9 @@
+# RASA-Drone
+**
+!src/
+src/pid_node/build/
+.catkin_tools
+
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -12,3 +18,5 @@
 *.vsix
 
 .vscode/browse.vc.db
+
+
