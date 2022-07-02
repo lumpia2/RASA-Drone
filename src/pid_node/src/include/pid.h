@@ -18,6 +18,7 @@
 #include <geometry_msgs/Quaternion.h>
 #include <geometry_msgs/PoseStamped.h>
 #include <mavros_msgs/AttitudeTarget.h>
+#include <std_msgs/rosbag.h>
 
 // #include "pid.cc"
 
